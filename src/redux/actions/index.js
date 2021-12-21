@@ -1,8 +1,8 @@
 import { AUTH_LOGIN } from '../types';
 
-export const login = (info) => {
+export const doLogin = () => {
   return {
     type: AUTH_LOGIN,
-    data: info
+    data: {}
   }
 }
